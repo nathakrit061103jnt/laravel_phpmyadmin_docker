@@ -3,11 +3,11 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h2> Show Product</h2>
+            <div class="pull-left mt-5 mb-3 text-primary">
+                <h2>เเสดงข้อมูลสินค้า <hr></h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+                <a class="btn btn-primary mt-5" href="{{ route('products.index') }}"> กลับ</a>
             </div>
         </div>
     </div>
@@ -15,32 +15,32 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Name:</strong>
-                {{ $product->p_name }}
+                <strong>ชื่อสินค้า: </strong>
+                <span class="text-info">{{ $product->p_name }}</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Price:</strong>
-                {{ $product->p_price }}
+                <strong>ราคาสินค้า: </strong>
+                <span class="text-info">{{ $product->p_price }} บาท</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Count:</strong>
-                {{ $product->p_unit_count }}
+                <strong>จำนวนนับสินค้า: </strong>
+                <span class="text-info">{{ $product->p_unit_count }}</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Warehouse:</strong>
-                {{ $product->p_id_warehouse }}
+                <strong>รหัสคลังสินค้า: </strong>
+                <span class="text-info">{{ $product->p_id_warehouse }}</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Manufacturer:</strong>
-                {{ $product->p_id_manufacturer }}
+                <strong>รหัสผู้ผลิต: </strong>
+                <span class="text-info">{{ $product->p_id_manufacturer }}</span>
             </div>
         </div>
     </div>
