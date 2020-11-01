@@ -7,7 +7,7 @@
 
 ## หน้าหลัก
 
-<img src="shows/indexPages.png" width="400">
+<img src="shows/indexPages.png"  >
 
 ## Laravel Sponsors
 
