@@ -6,12 +6,12 @@
 4.  sudo <strong>composer install</strong>
 5.  <strong>cp .env.example .env</strong>
 6.  <strong>nano .env</strong>
-7.  <strong>DB_CONNECTION=mysql
-    DB_HOST=db
-    DB_PORT=3306
-    DB_DATABASE=laravel
-    DB_USERNAME=root
-    DB_PASSWORD=12345678</strong>
+7.  <strong>DB_CONNECTION=mysql</strong><br>
+    <strong>DB_HOST=db</strong><br>
+    <strong>DB_PORT=3306</strong><br>
+    <strong>DB_DATABASE=laravel</strong><br>
+    <strong>DB_USERNAME=root</strong><br>
+    <strong>DB_PASSWORD=12345678</strong><br>
 8.  <strong>docker-compose up -d</strong>
 9.  docker ps
 10. <strong>docker-compose exec app php artisan key:generate</strong>
