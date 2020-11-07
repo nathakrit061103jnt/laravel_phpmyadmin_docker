@@ -22,4 +22,4 @@
 13. กลับมาที่ หน้า <strong>commandline</strong> ของ <strong>linux</strong> เเล้วใช้คำสั่ง <strong>docker-compose exec app php artisan migrate</strong>
 14. ไปที่ หน้า <strong>phpmyadmin</strong> อีกครั้งเเล้วคลิกดูที่ <strong>Database</strong> ว่า table ถูกสร้างหรือไม่ ถ้า ใช่ การ <strong>Deploy ก็เสร็จสมบูรณ์ </strong><br>
 
-    <h3>เครดิต :: <strong><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose"><a/>https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose</a></strong></h3>
+    เครดิต :: <strong><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose"><a/>https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose</a></strong>
