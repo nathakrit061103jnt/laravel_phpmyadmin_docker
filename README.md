@@ -20,6 +20,6 @@
     12.1 ใช้คำสั่ง <strong>GRANT ALL ON laravel.\* TO 'laraveluser'@'%' IDENTIFIED BY 'your_laravel_db_password';</strong>
     12.2 ใช้คำสั่ง <strong>FLUSH PRIVILEGES;</strong>
 13. กลับมาที่ หน้า <strong>commandline</strong> ของ <strong>linux</strong> เเล้วใช้คำสั่ง <strong>docker-compose exec app php artisan migrate</strong>
-14. ไปที่ หน้า <strong>phpmyadmin</strong> อีกครั้งเเล้วคลิกดูที่ <strong>Database</strong> ว่า table ถูกสร้างหรือไม่ ถ้า ใช่ การ <strong>Deploy ก็เสร็จสมบูรณ์ </strong>
-    1
+14. ไปที่ หน้า <strong>phpmyadmin</strong> อีกครั้งเเล้วคลิกดูที่ <strong>Database</strong> ว่า table ถูกสร้างหรือไม่ ถ้า ใช่ การ <strong>Deploy ก็เสร็จสมบูรณ์ </strong><br>
+
     เครดิดจาก :: <strong><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose"><a/>https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose</a></strong>
